@@ -32,5 +32,6 @@ Hence, the government needs to charge taxi drivers who depart from the airport b
 
 ### Therefore, the second model tells government what is the best width of road if they want to have a higher income while maximizing passenger flow.
 
+I invent a very useful algorithm in time_interval.py, which can reduce the influence of random factors.
 
 
