@@ -1,6 +1,6 @@
 In this project, I made two mathematical models. The first model helps taxi drivers to determine whether they should wait in line at the "storage pool" to pick up  passengers who are going to arrive at airport from airplanes or they would better return to city center and profit from other customers. The second model tells government what is the best width of road in airport if they want to have a higher income.
 
-# backgorund one
+# Backgorund one
 Since most passengers have to go to destinations in the urban area (or surroundings) after getting off the plane, and taxis are more convenient than other means of transportation, taxis are a commonly used means of transportation.
 
 Most domestic airports separate the drop-off (departure area) from the drop-off (arrival area).
@@ -22,7 +22,7 @@ If passengers want to "ride a taxi" after getting off the plane, they must line 
 ### Therefore, the first model here tells drivers which option they should choose based on the specific time point.
 
 
-# backgorund two
+# Backgorund two
 
 Increasing the number of lanes would let customers getting off the plane picked up in a shorter time, which can also reduce the waiting costs of taxi drivers. 
 
