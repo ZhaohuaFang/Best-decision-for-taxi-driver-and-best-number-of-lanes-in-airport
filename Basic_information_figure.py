@@ -1,4 +1,4 @@
-#run on Jupyter Notebook
+#Run on Jupyter Notebook
 import numpy as np
 import random
 import math
