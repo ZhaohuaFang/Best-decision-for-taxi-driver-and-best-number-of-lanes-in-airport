@@ -7,16 +7,16 @@ def income(n):
 
     np.random.seed(2)
     random.seed(1)
-    #单位时间内乘客到达的数量服从泊松分布
+    #the number of passengers arriving per unit time obeys Poisson distribution
     for i in y1:
         for j in range(60):
             y_r.append(poisson(i))
 
     y_r=np.array(y_r)
     y_r=y_r/1.5
-    #0：00到17：00
+    #from 0：00 to 17：00
     y1=y_r[0:1080]
-    #17：00到24：00
+    #from 17：00 to 24：00
     y2=y_r[1080:1500]
 
     y1=list(y1*0.4)
@@ -25,25 +25,26 @@ def income(n):
     y_r=np.array(y_r)
 
     line=0
-    #line_summary是每个时间的排队长度
+    #line_summary: queing length at different time
     line_summary=[]
     need=0
     people=0
     random.seed(3)
     for i in range(1500):
-        #每分钟增加8.5辆出租车排队
-        #增加y_r[i]个出租车需求量
+        #every minute 8.5 taxis are going to line up 
+        #every minute the need of taxis increases by y_r[i]
         line+=poisson(8.5)
         need+=y_r[i]
-        #如果乘客充足，则按照nu的速度减少排队长度
+        #If there are enough passengers, reduce the queing length at the speed of nu
         if need>n*4:
             need=need-n*4
             line=line-n*4
-        #如果乘客不足，则按照乘客到达的速度减少排队长度，然后乘客变为0
+        #If there are not enough passengers, the queing length is reduced according to 
+        #the speed at which the passengers arrive. Meanwhile, the number of passengers becomes 0
         else:
             line=line-need
             need=0
-        #排队长度大于等于0
+        #queing length is greater than or equal to 0
         if line<0:
             line=0
         line_summary.append(line)
@@ -55,7 +56,7 @@ def income(n):
         need1+=y_r[i]
         need=need1
 
-        #更新出租车需求量
+        #update the need of taxis
         if need1>n*4:
             need1=need1-n*4
         else:
@@ -65,7 +66,7 @@ def income(n):
 
         while current_line>0:
             j=i
-            #如果乘客充足，则按照nu的速度减少排队长度
+            #If there are enough passengers, reduce the queue length at the speed of nu
             if need>n*4:
                 current_line-=n*4
                 need-=n*4
@@ -128,10 +129,3 @@ for i in range(1,43):
     
 x=np.linspace(1,42,42)
 plt.plot(x,result,'.',c='#800080')
-
-plt.xlabel("车道数")
-plt.ylabel("政府年收入")
-plt.legend(loc=4) 
-plt.title("政府年收入和车道数的关系")
-plt.savefig('政府年收入和车道数的关系',dpi=500,bbox_inches='tight')
-plt.show()
