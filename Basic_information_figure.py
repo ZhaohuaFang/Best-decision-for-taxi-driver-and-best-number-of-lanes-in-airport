@@ -87,7 +87,7 @@ y_r=np.array(y_r)
 plt.plot(x,y_r,".",c='g')
 
 plt.xlabel("time/min")
-plt.ylabel("number of taxis needed")
+plt.ylabel("number of taxis needed/unit")
 plt.legend(loc=4) 
 plt.title("time-varying number of taxis needed at Beijing Capital International Airport")
 plt.savefig('time-varying number of taxis needed at Beijing Capital International Airport.png',dpi=500,bbox_inches='tight')
