@@ -30,7 +30,7 @@ However, increasing the number of lanes will result into great cost on governmen
 
 Hence, the government needs to charge taxi drivers who depart from the airport boarding area 30% of the proceeds.
 
-### Therefore, the second model tells government what is the best width of road if they want to have a higher income.
+### Therefore, the second model tells government what is the best width of road if they want to have a higher income while maximizing passenger flow.
 
 
 
