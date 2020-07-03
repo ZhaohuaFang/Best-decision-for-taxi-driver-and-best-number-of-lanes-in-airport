@@ -19,18 +19,18 @@ Due to the development of technology, the number of flights arriving in a certai
 
 If passengers want to "ride a taxi" after getting off the plane, they must line up in the designated "ride area" and ride in order. The airport taxi management staff is responsible for releasing the taxis into the "ride area" "in batches" and arranging a certain number of passengers to board the taxi.
 
-Therefore, the first model here tells drivers which option they should choose based on the specific time point.
+### Therefore, the first model here tells drivers which option they should choose based on the specific time point.
 
 
 # backgorund two
 
-Increasing the number of lanes would greatly speed up getting customers getting off the plane to be picked up by taxi drivers, which can also reduce the waiting costs of taxi drivers. 
+Increasing the number of lanes would let customers getting off the plane picked up in a shorter time, which can also reduce the waiting costs of taxi drivers. 
 
 However, increasing the number of lanes will result into great cost on government as the cost of road maintenance is also not to be underestimated. 
 
-Hence, the government needs to charge taxi drivers departing from the airport boarding area 30% of the proceeds.
+Hence, the government needs to charge taxi drivers who depart from the airport boarding area 30% of the proceeds.
 
-Second model tells government what is the best width of road if they want to have a bigger income.
+### Therefore, the second model tells government what is the best width of road if they want to have a higher income.
 
 
 
