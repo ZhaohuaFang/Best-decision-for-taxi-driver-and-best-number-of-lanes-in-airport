@@ -3,7 +3,7 @@ def interval(time,time_summary):
     a=[]
     b=[]
     result=[]
-    #Here is the essence of this code.Although it is easy to find from resulting figures that 
+    #Here is the essence of this piece of code.Although it is easy to find from resulting figures that 
     #there are only two intersections between the straight line and the curve,
     #due to randomness of Poisson flow, some points may coincide. Therefore, we are not able
     #to get the intersection just by judging if time_summary[i] is equal to time. Instead, I collect all 
