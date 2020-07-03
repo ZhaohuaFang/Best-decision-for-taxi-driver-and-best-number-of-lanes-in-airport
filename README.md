@@ -34,7 +34,7 @@ Hence, the government needs to charge taxi drivers who depart from the airport b
 
 I invent a very useful algorithm in time_interval.py, which can reduce the influence of random factors.
 
-Partial output of these two models are presented as below. Some figures' labels may different from what is shown in the code that I have shared.
+Partial output of these two models are presented as below. Some figures' labels may be different from what is shown in the code that I have shared.
 
 ![image](https://github.com/ZhaohuaFang/Best-decision-for-taxi-driver-and-best-number-of-lanes-in-airport/blob/master/time-varying%20number%20of%20taxis%20needed%20at%20Beijing%20Capital%20International%20Airport.png)
 
