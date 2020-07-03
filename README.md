@@ -44,6 +44,6 @@ Partial output of these two models are presented as below. Some figures' labels 
 
 ![image](https://github.com/ZhaohuaFang/Best-decision-for-taxi-driver-and-best-number-of-lanes-in-airport/blob/master/the%20relation%20between%20annual%20government%20revenue%20and%20number%20of%20lanes.png)
 
-We can conclude from the figures that from 0min to 82min and from 970min to 1500min（1440min to 1500min is in next day）, taxi drivers would better go to "storage pool" and wait in line to carry passengers back to the city. During the other time, taxi drivers would get higher profit if they directly return to the city to solicit passengers.
+We can conclude from the figures that from 0min to 82min and from 970min to 1500min（1440min to 1500min is in the next day）, taxi drivers would better go to "storage pool" and wait in line to carry passengers back to the city. During the other time, taxi drivers would get higher profit if they directly return to the city to solicit passengers.
 
-We can also make a conclusion that the best number of lanes is 6.
+We can also find that the best number of lanes is 6.
