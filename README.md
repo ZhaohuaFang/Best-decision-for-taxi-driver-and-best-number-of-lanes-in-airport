@@ -1,4 +1,4 @@
-In this project, I made two mathematical models. The first model helps taxi drivers to determine whether they should wait in line at the "storage pool" to pick up  passengers who are going to arrive at airport from airplanes or they would better return to city center and profit from other customers. The second model tells government what is the best width of road in airport if they want to have a bigger income.
+In this project, I made two mathematical models. The first model helps taxi drivers to determine whether they should wait in line at the "storage pool" to pick up  passengers who are going to arrive at airport from airplanes or they would better return to city center and profit from other customers. The second model tells government what is the best width of road in airport if they want to have a higher income.
 
 # backgorund one
 Since most passengers have to go to destinations in the urban area (or surroundings) after getting off the plane, and taxis are more convenient than other means of transportation, taxis are a commonly used means of transportation.
